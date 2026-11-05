@@ -5,6 +5,7 @@ import { join } from "node:path"
 
 const home = mkdtempSync(join(tmpdir(), "opencode-pstack-check-"))
 process.env.HOME = home
+process.env.XDG_CONFIG_HOME = join(home, ".config")
 
 const configDir = join(home, ".config", "opencode")
 mkdirSync(configDir, { recursive: true })
