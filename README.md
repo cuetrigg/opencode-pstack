@@ -19,7 +19,7 @@ No Cursor-only feature is invented. Bugbot, Cursor Automations, cloud agents, Cu
 OpenCode 2.2.5 or newer is required. This plugin uses the V2 plugin API.
 
 ```bash
-git clone https://github.com/<owner>/opencode-pstack.git ~/Projects/opencode-pstack
+git clone <your-repo-url> ~/Projects/opencode-pstack
 cd ~/Projects/opencode-pstack
 bun install
 ```
